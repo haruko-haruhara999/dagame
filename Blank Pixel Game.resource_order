@@ -28,6 +28,7 @@
     {"name":"Spr_Thunder","order":7,"path":"sprites/Spr_Thunder/Spr_Thunder.yy",},
     {"name":"Spr_Wall","order":1,"path":"sprites/Spr_Wall/Spr_Wall.yy",},
     {"name":"Sprite10","order":17,"path":"sprites/Sprite10/Sprite10.yy",},
+    {"name":"Sprite11","order":9,"path":"sprites/Sprite11/Sprite11.yy",},
     {"name":"Sprite3","order":16,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
