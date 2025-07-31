@@ -4,6 +4,8 @@ left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 
+
+
 // ========== Stun check ==========
 if (stunned) {
     sprite_index = Spr_Player_Collect; // stunned or collect sprite
@@ -68,4 +70,13 @@ if (has_Obj_Hammer && !hammer_collected) {
     stun_timer = stun_duration;
     sprite_index = Spr_Player_Collect;
     hammer_collected = true; // mark that we've already done it
+}
+
+// ========== Health Logic ==========
+if (keyboard_check_pressed(ord("J")))
+{
+    if (health > 0)
+    {
+        health = health - 5;
+    }
 }

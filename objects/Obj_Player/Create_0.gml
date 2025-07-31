@@ -20,4 +20,9 @@ delay = 30
 stunned = false;
 stun_timer = 0;
 stun_duration = 60;
-	hammer_collected = false;
+hammer_collected = false;
+
+#region Health
+health = 100;
+
+#endregion
